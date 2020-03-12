@@ -8,7 +8,10 @@ Installation is simple. Copy personalitty.sh somewhere you can find it.
 
 Add this somewhere in your shell rc file (example ``` $HOME/.bashrc ```) so that it runs before your PS1 declaration. 
 
-```. personalitty.sh ```
+```
+# this is assuming it's located in the $HOME directory
+. $HOME/personalitty.sh 
+```
 
 You'll need to add the function ```ptty_eval``` to your shell's pre command hook.
 
