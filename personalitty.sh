@@ -1,8 +1,5 @@
 # declare scope of the current return code and the return code buffer
 export PTTYCURRC=0;
-export PTTYBUFFERS="PTTYCURRC PTTYRCBUFFER1 PTTYRCBUFFER2 PTTYRCBUFFER3";
-
-for m in $(echo $PTTYBUFFERS); do export "$m"=0; done;
 
 
 
@@ -50,9 +47,6 @@ function ptty_mood_to_face() {
 
 function ptty_rebuffer() {
     pttytmprc=$?;
-    export PTTYRCBUFFER3=$PTTYRCBUFFER2;
-    export PTTYRCBUFFER2=$PTTYRCBUFFER1;
-    export PTTYRCBUFFER1=$PTTYCURRC;
     export PTTYCURRC=$pttytmprc;
 }
 
