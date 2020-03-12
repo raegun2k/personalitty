@@ -1,4 +1,4 @@
-# personalitty - personalitty
+# personalitty - Give your terminal shell a bit of personality by letting it express its mood
 # https://github.com/raegun2k/personalitty
 # © 2020 Rae O'Neil
 # Licensed under AGPL v3.0
