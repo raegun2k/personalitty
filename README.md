@@ -1,2 +1,1 @@
-# personalitty
-Give your terminal shell a bit of personality by letting it express its mood
+Personalitty - Give your terminal a bit of personality!
