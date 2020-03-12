@@ -4,7 +4,7 @@ Give your terminal a bit of personality by letting it show you its mood!
 
 ## Installation
 
-Installation is simple. Copy ``` personalitty.sh ``` (or ``` personalitty_emoji ```.sh if you'd prefer emojis to emoticons) somewhere you can find it.
+Installation is simple. Copy ``` personalitty.sh ``` (or ``` personalitty_emoji.sh ``` if you'd prefer emojis to emoticons) somewhere you can find it.
 
 Add this somewhere in your shell rc file (example ``` $HOME/.bashrc ```) so that it runs before your PS1 declaration. 
 
