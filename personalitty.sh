@@ -1,3 +1,12 @@
+# personalitty - personalitty
+# https://github.com/raegun2k/personalitty
+# © 2020 Rae O'Neil
+# Licensed under AGPL v3.0
+
+# personalitty.sh - Use in conjunction with shell RC file to 
+# set a PTTY EnvVar with a mood face for use in PS1 definitions
+ 
+
 # declare scope of the current return code and the return code buffer
 export PTTYCURRC=0;
 
